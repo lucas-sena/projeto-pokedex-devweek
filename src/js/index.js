@@ -24,7 +24,7 @@ listSelectionPokemon.forEach(pokemon => {
     pokemon.addEventListener('click', () => {
     // remover classe aberto do cartão que está aberto
     const cartaoPokemonAberto = document.querySelector('.aberto')
-    cartaoPokemonAberto.classList.remove('.aberto')
+    cartaoPokemonAberto.classList.remove('aberto')
     
     //ao clicar em um pokémon da listagem pegamos o id desse pokémon pra saber qual cartão mostrar
     const idPokemonSelecionado = pokemon.attributes.id.value
